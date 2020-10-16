@@ -25,7 +25,7 @@ final class HomepagePresenter extends Presenter
 			(new Message())
 				->addTo('email@emai.com')
 				->setFrom('email@email.com')
-				->setHtmlBody('<p>hello [[there]] obi wan</p>', __DIR__)
+				->setHtmlBody('<p>hello [[there]] obi wan</p><img src="img.jpg">', __DIR__ . '/images')
 		);
 		$this->terminate();
 
