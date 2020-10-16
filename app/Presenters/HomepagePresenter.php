@@ -21,7 +21,6 @@ final class HomepagePresenter extends Presenter
 
 	public function actionDefault()
 	{
-
 		$this->mailer->send(
 			(new Message())
 				->addTo('email@emai.com')
